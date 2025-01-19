@@ -272,4 +272,96 @@ a {
 
 /* ABOUT END */
 
+/* OFFERS START */
+.site-offers__wrapper {
+  padding: 70px 0px;
+
+  display: flex;
+  gap: 110px;
+}
+
+.site-offers__content {
+  max-width: 490px;
+  padding-top: 77px;
+}
+
+.site-offers__title {
+  font-size: 50px;
+  line-height: 150%;
+
+  margin-bottom: 30px;
+}
+
+.site-offers__text {
+  font-size: var(--font-size);
+  color: var(--color-forth);
+  line-height: 150%;
+
+  border-left: 3px solid var(--color-forth);
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+.site-offers__btn {
+  display: inline-block;
+  padding: 12px 90px;
+
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+
+  background-color: var(--color-fifth);
+}
+
+/* OFFERS END */
+
+/* SERVICE START */
+
+.site-service {
+  background-image: url("../images/runners.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.site-service__wrapper {
+  padding: 240px 0;
+
+  display: flex;
+  justify-content: end;
+}
+
+.site-service__content {
+  width: 490px;
+
+  color: #fff;
+}
+
+.site-service__title {
+  font-size: 50px;
+  line-height: 150%;
+
+  margin-bottom: 30px;
+}
+
+.site-service__text {
+  font-size: var(--font-size);
+  line-height: 150%;
+
+  padding-left: 40px;
+  border-left: 3px solid #fff;
+  margin-bottom: 30px;
+}
+
+.site-service__btn {
+  padding: 12px 46px;
+  display: inline-block;
+
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+
+  background-color: var(--color-fifth);
+}
+/* SERVICE END */
+
 /* MAIN END */
