@@ -1,0 +1,56 @@
+/* MAIN START */
+/* ABOUT START */
+.site-about {
+  padding: 70px 0;
+}
+
+.site-about__list {
+  display: flex;
+  gap: 80px;
+}
+
+.site-about__item {
+  width: 280px;
+}
+
+.site-about__title {
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+
+  margin-bottom: 30px;
+}
+
+.site-about__text {
+  font-size: var(--second-font-size);
+  color: var(--color-third);
+  line-height: 160%;
+}
+
+.site-about__btn:before {
+  content: "";
+  background-image: url("../icons/hero-about-line.svg");
+
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 40px;
+  height: 100%;
+  top: 40%;
+  left: 0;
+}
+
+.site-about__btn {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  padding-left: 50px;
+
+  font-size: var(--font-size);
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--color-fifth);
+}
+
+/* ABOUT END */
+
+/* MAIN END */
